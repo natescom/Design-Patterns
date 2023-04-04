@@ -4,6 +4,7 @@ Esse padrão restringe a instância de uma classe a um único objeto.
 - Construtor Privado
 
 # Desafio - Fabrica de Chocolate
+### Fonte: Use a cabeça - Padrões de projeto
 Todo mundo sabe que todas as fåbricas de chocolate modernas têm caldeiras de chocolate controladas
 por computadores. A tarefa da caldeira é pegar chocolate e leite, colocá-los em ebulição e passá-los
 para a próxima fase da fabricação de barras de chocolate.
@@ -15,7 +16,7 @@ ferver uma caldeira vazia!
 
 Altere o algoritmo abaixo para usar o padrão Singleton
 
-ˋˋˋ
+```
 public class ChocolateBoiler {
   private boolean empty;
   private boolean boiled;
@@ -49,4 +50,4 @@ public class ChocolateBoiler {
   }
 
 }
-ˋˋˋ
+```
